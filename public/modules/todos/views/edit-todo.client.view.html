@@ -1,0 +1,57 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<section data-ng-controller="TodosController" data-ng-init="findOne()">
+    <div class="page-header">
+        <h1><b>Edit</b> D01Do</h1>
+    </div>
+    <div class="col-md-12">
+        <form class="form-horizontal" data-ng-submit="update()" novalidate>
+            <fieldset>
+
+                <div class="form-group col-md-10">
+                    <label class="control-label" for="name">Name</label>
+                    <div class="controls">
+                        <input type="text" data-ng-model="todo.name" id="name" class="form-control" placeholder="todo.name" required>
+                    </div>
+                </div>
+                <div class="form-group col-md-2" style="margin:15px;">
+                    <label class="control-label" for="rate">Weight</label>
+                    <div class="controls">
+                        <rating ng-model="todo.weight" max="max" readonly="isReadonly" on-hover="hoveringOver(value)" on-leave="overStar = null"></rating><b style="margin: 0px 10px;">{{rate}}</b>
+                    </div>
+                </div>
+
+                <div class="form-group col-md-12">
+                    <label class="control-label" for="name">Category</label>
+                        <select class="form-control" ng-model="todo.category">
+                            <option value="work">Work</option>
+                            <option value="home">Home</option>
+                            <option value="practical">Practical</option>
+                            <option value="no">No category</option>
+                        </select>
+                </div>
+
+                </div>
+                <div class="form-group col-md-12">
+                    <label class="control-label" for="description">Description</label>
+                    <div class="controls textangular">
+                    <text-angular name="description" ng-model="todo.description" style="height:300px;"></text-angular>
+                    </div>
+                </div>
+
+                <div class="form-group col-md-12">
+                    <label class="control-label" for="name">Tags</label>
+                        <div class="controls">
+                        <input type="text" data-ng-model="tags" id="tag" class="form-control" placeholder="Tags" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Update" class="btn btn-default" ng-click="update()">
+                </div>
+		<div data-ng-show="error" class="text-danger">
+			<strong data-ng-bind="error"></strong>
+		</div>
+            </fieldset>
+        </form>
+    </div>
+</section>

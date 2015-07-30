@@ -1,0 +1,25 @@
+README
+
+>= code
+
+1) START MONGO
+
+	>mongod
+
+	if mongo already running, run:
+
+		>mongo admin --eval "db.shutdownServer()"
+
+2) START NPM
+
+	inside root folder (Desktop/District01/MEAN/NortWindNode)
+	>npm start
+
+3) Browse localhost (port 3000)
+
+	http://localhost:3000/
+
+4) START DEBUG SERVER
+
+	node-debug server.js
+	http://127.0.0.1:8080/?ws=127.0.0.1:8080&port=5858

@@ -1,0 +1,1084 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"stat",
+				"stateParams"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"angula",
+				"angular.copy"
+			],
+			[
+				"if",
+				"if	if"
+			],
+			[
+				"cookies",
+				"angular: $cookies"
+			],
+			[
+				"os",
+				"OswaldRegular"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"contac",
+				"contactform"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"li",
+				"light"
+			],
+			[
+				"Loca",
+				"locationName"
+			],
+			[
+				"st",
+				"stateParams"
+			],
+			[
+				"loc",
+				"locationName"
+			],
+			[
+				"ac",
+				"activateTab"
+			],
+			[
+				"fu",
+				"fun	Function"
+			],
+			[
+				"pos",
+				"pos-r	position: relative;"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"Osw",
+				"OswaldLight"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"get",
+				"getCustomers"
+			],
+			[
+				"view",
+				"view1"
+			],
+			[
+				"controll",
+				"controllers"
+			],
+			[
+				"cust",
+				"customers"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"po",
+				"pos-a	position: absolute;"
+			],
+			[
+				"go",
+				"geolong"
+			],
+			[
+				"ge",
+				"geolong"
+			],
+			[
+				"g",
+				"geolong"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"flex",
+				"flexcontrols"
+			],
+			[
+				"pane",
+				"panel1"
+			],
+			[
+				"cl",
+				"click"
+			],
+			[
+				"panel",
+				"panel2"
+			],
+			[
+				"banner",
+				"bannertopper"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"fl",
+				"fl-l	float: left;"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"na",
+				"name"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"naam",
+				"naamTherapie"
+			],
+			[
+				"res",
+				"resources"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"class",
+				"classification"
+			],
+			[
+				"app",
+				"appointmentid"
+			],
+			[
+				"resu",
+				"resultaat"
+			],
+			[
+				"event",
+				"eventTypes"
+			],
+			[
+				"clas",
+				"classification"
+			],
+			[
+				"re",
+				"resultaat"
+			],
+			[
+				"json",
+				"jsonrpc"
+			],
+			[
+				"r",
+				"resultaat"
+			],
+			[
+				"htt",
+				"http_status"
+			],
+			[
+				"curl",
+				"curl_getinfo"
+			],
+			[
+				"curl_e",
+				"curl_exec"
+			],
+			[
+				"at",
+				"authToken"
+			],
+			[
+				"hea",
+				"headers"
+			],
+			[
+				"RE",
+				"return"
+			],
+			[
+				"cur",
+				"curl_init"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"auth",
+				"authToken"
+			],
+			[
+				"Reser",
+				"Reservatie"
+			],
+			[
+				"datum",
+				"datumveld"
+			],
+			[
+				"m_s",
+				"m_sNaam"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"movie",
+				"movies"
+			],
+			[
+				"mysq",
+				"mysql_connect"
+			],
+			[
+				"m_iP",
+				"m_iPersonen"
+			],
+			[
+				"doc",
+				"document"
+			],
+			[
+				"api",
+				"api_key"
+			],
+			[
+				"wifi",
+				"wifi"
+			],
+			[
+				"post",
+				"postcode"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"ins",
+				"insta"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"ord",
+				"order"
+			],
+			[
+				"order",
+				"order"
+			],
+			[
+				"PO",
+				"_POST"
+			],
+			[
+				"best",
+				"bestelling"
+			],
+			[
+				"orde",
+				"order"
+			],
+			[
+				"tr",
+				"try	Wrap in try { … } catch (…) { … }"
+			],
+			[
+				"dat",
+				"datum"
+			],
+			[
+				"cate",
+				"categorie"
+			],
+			[
+				"ca",
+				"category"
+			],
+			[
+				"check",
+				"checkinday"
+			],
+			[
+				"checkin",
+				"checkinmonth"
+			],
+			[
+				"p_",
+				"p_vValue"
+			],
+			[
+				"Fir",
+				"firstname"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
+				"incl",
+				"incl1	include_once …"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"my",
+				"mysql_query"
+			],
+			[
+				"tweet",
+				"tweets"
+			],
+			[
+				"num",
+				"num_rows"
+			],
+			[
+				"inc",
+				"incl1	include_once …"
+			],
+			[
+				"p",
+				"p_vValue"
+			],
+			[
+				"f",
+				"p_sFirstname"
+			],
+			[
+				"html",
+				"htmlspecialchars"
+			],
+			[
+				"all",
+				"allUsers"
+			],
+			[
+				"real_esca",
+				"mysql_real_escape_string"
+			],
+			[
+				"s",
+				"salt"
+			],
+			[
+				"passwo",
+				"password"
+			],
+			[
+				"mys",
+				"mysql_errno"
+			],
+			[
+				"em",
+				"email"
+			],
+			[
+				"sess",
+				"session_destroy"
+			],
+			[
+				"sessio",
+				"session_start"
+			],
+			[
+				"e",
+				"echt"
+			],
+			[
+				"deadline",
+				"deadline2"
+			],
+			[
+				"dead",
+				"deadlineInHrs"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/routes/todo.server.routes.js",
+			"settings":
+			{
+				"buffer_size": 347,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/todo.server.controller.js",
+			"settings":
+			{
+				"buffer_size": 2548,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/modules/todos/config/todos.client.routes.js",
+			"settings":
+			{
+				"buffer_size": 767,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/modules/todos/controllers/todos.client.controller.js",
+			"settings":
+			{
+				"buffer_size": 2395,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/modules/todos/views/view-todo.client.view.html",
+			"settings":
+			{
+				"buffer_size": 526,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/modules/todos/views/edit-todo.client.view.html",
+			"settings":
+			{
+				"buffer_size": 1327,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/robbertsegers/Desktop/District01/MEAN/NorthWindNode/public/modules/todos/views/todos.client.view.html",
+		"/Users/robbertsegers/Desktop/District01/MEAN/NorthWindNode/public/modules/todos/views/create-todo.client.view.html",
+		"/Users/robbertsegers/Desktop/District01/MEAN/NorthWindNode/app/models/todo.server.model.js",
+		"/Users/robbertsegers/Desktop/District01/MEAN/NorthWindNode/README",
+		"/Users/robbertsegers/Desktop/District01/MEAN/NorthWindNode/D01do.sublime-project",
+		"/Users/robbertsegers/Desktop/District01/MEAN/NorthWindNode/public/modules/categories/config/categories.client.routes.js",
+		"/Users/robbertsegers/Desktop/District01/MEAN/NorthWindNode/public/modules/categories/config/categories.client.config.js",
+		"/Users/robbertsegers/Desktop/District01/MEAN/NorthWindNode/public/modules/todos/services/todos.client.service.js",
+		"/Users/robbertsegers/Desktop/District01/MEAN/NorthWindNode/app/models/product.server.model.js",
+		"/Users/robbertsegers/Desktop/District01/MEAN/NorthWindNode/app/controllers/products.server.controller.js",
+		"/Users/robbertsegers/Desktop/District01/MEAN/NorthWindNode/app/routes/products.server.routes.js",
+		"/Users/robbertsegers/Desktop/District01/MEAN/NorthWindNode/public/modules/products/config/products.client.config.js",
+		"/Users/robbertsegers/Desktop/District01/MEAN/NorthWindNode/public/modules/core/views/home.client.view.html",
+		"/Users/robbertsegers/Desktop/District01/MEAN/NorthWindNode/public/config.js",
+		"/Users/robbertsegers/Desktop/District01/MEAN/NorthWindNode/public/modules/todos/config/todos.client.config.js",
+		"/Users/robbertsegers/Desktop/District01/MEAN/NorthWindNode/public/modules/core/views/header.client.view.html",
+		"/Users/robbertsegers/Desktop/District01/MEAN/NorthWindNode/public/modules/todos/config/todos.client.routes.js",
+		"/Users/robbertsegers/Desktop/District01/MEAN/NorthWindNode/app/routes/todo.server.routes.js",
+		"/Users/robbertsegers/Desktop/District01/MEAN/NorthWindNode/app/routes/categories.server.routes.js",
+		"/Users/robbertsegers/Desktop/District01/MEAN/NorthWindNode/app/controllers/categories.server.controller.js",
+		"/Users/robbertsegers/Desktop/District01/MEAN/NorthWindNode/app/models/category.server.model.js",
+		"/Users/robbertsegers/Desktop/District01/MEAN/NorthWindNode/public/modules/categories/views/edit-category.client.view.html",
+		"/Users/robbertsegers/Desktop/District01/MEAN/NorthWindNode/public/modules/categories/views/view-category.client.view.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/includes/header.html",
+		"/Users/robbertsegers/Desktop/District01/MEAN/package.json",
+		"/Users/robbertsegers/Desktop/District01/MEAN/app/models/nerd.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/save.php",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/js/controllers/FranchisesDetailCtrl.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/view/language.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/js/controllers/home.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/sass/screen.scss",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/includes/footer.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/index.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/js/controllers/franchises.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/js/controllers/language.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/view/locaties.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/js/controllers/contact.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/view/jobs.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/js/controllers/jobs.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/view/locatie.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/js/locatie.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/js/config.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/js/controllers/LocatieDetailCtrl.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/js/controllers/save.php",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/view/contact.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/view/franchise.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/view/home.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/js/routing.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/js/controllers/menu.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/view/menu.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/PremiumMeat.sublime-project",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/js/controllers/carousel.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/js/home.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/view/franchise.boechout.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/js/angular/angular-lightbox.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/css/light.css",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/js/controllers/ng-lightbox.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/view/franchise.luik.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/view/franchise.brugge.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/view/franchise.gent.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/view/franchise.brussel.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/view/franchise.kontich.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/view/franchise.duffel.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/js/tabselect.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/view/locaties.antwerp.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/franchise.kontich.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/js/controllers/collapse.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/html/locaties.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/locaties.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/menu.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/js/angular/angular-ui-router.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/gulpfile.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/js/collapse.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/services/jobs.json",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat2015/development/js/accordion.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat2015/development/franchise.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat2015/development/jobs.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat2015/development/index.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat2015/development/js/breakpoints.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat2015/development/js/tabview.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat2015/development/sass/screen.scss",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat2015/development/jobs-partial.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat2015/development/invoices-partial.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat2015/development/js/enquire.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat2015/development/js/bootstrap/ui-bootstrap-tpls-0.12.1.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat2015/development/js/angular/angular2.16.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat2015/development/js/bootstrap/ui-bootstrap-tpls-0.9.0.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat2015/development/js/enquirecustom.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat2015/development/js/angular.js",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat2015/development/locaties.html",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat2015/development/menu.html",
+		"/Users/robbertsegers/Desktop/District01/district01_Premium_Meat_2015/development/index.html",
+		"/Users/robbertsegers/Desktop/District01/district01_Premium_Meat_2015/development/jobs.html",
+		"/Users/robbertsegers/Desktop/District01/district01_Premium_Meat_2015/development/js/angular.js",
+		"/Users/robbertsegers/Desktop/District01/district01_Premium_Meat_2015/development/sass/screen.scss",
+		"/Users/robbertsegers/Desktop/District01/Premium_Meat2015/development/PremiumMeat.sublime-project",
+		"/Users/robbertsegers/Desktop/District01/district01_Premium_Meat_2015/development/js/enquire.js",
+		"/Users/robbertsegers/Desktop/District01/district01_Premium_Meat_2015/development/js/enquirecustom.js",
+		"/Users/robbertsegers/Desktop/District01/district01_Premium_Meat_2015/development/franchise.html",
+		"/Users/robbertsegers/Desktop/District01/district01_Premium_Meat_2015/development/css/screen.css",
+		"/Users/robbertsegers/Desktop/District01/district01_Premium_Meat_2015/development/menu.html",
+		"/Users/robbertsegers/Desktop/District01/district01_Premium_Meat_2015/development/locatie.html",
+		"/Users/robbertsegers/Desktop/District01/district01_Premium_Meat_2015/development/locaties.html",
+		"/Users/robbertsegers/Desktop/District01/district01_Premium_Meat_2015/development/css/style.scss",
+		"/Users/robbertsegers/Desktop/District01/district01_Premium_Meat_2015 Project/development/css/body.scss.css",
+		"/Users/robbertsegers/Desktop/District01/district01_Premium_Meat_2015 Project/development/css/style.scss.css",
+		"/Users/robbertsegers/Desktop/District01/district01_Premium_Meat_2015 Project/development/gulpfile.js",
+		"/Users/robbertsegers/Desktop/District01/district01_franchise-robbert_2015/package.json",
+		"/Users/robbertsegers/Desktop/District01/district01_Premium_Meat_2015 Project/development/package.json",
+		"/Users/robbertsegers/Desktop/District01/district01_Premium_Meat_2015 Project/development/gulp.js",
+		"/Users/robbertsegers/Desktop/District01/district01_franchise-robbert_2015/gulpfile.js",
+		"/Users/robbertsegers/Desktop/District01/test/testproject/src/index.html",
+		"/Users/robbertsegers/Desktop/District01/test/testproject/gulpfile.js",
+		"/Users/robbertsegers/Desktop/District01/AngularTuts/gulpfile.js",
+		"/Users/robbertsegers/Desktop/District01/AngularTuts/development/app/views/view2.html",
+		"/Users/robbertsegers/Desktop/District01/AngularTuts/development/app/views/view1.html",
+		"/Users/robbertsegers/Desktop/District01/AngularTuts/development/js/app.js",
+		"/Users/robbertsegers/Desktop/District01/AngularTuts/development/index.html",
+		"/Users/robbertsegers/district01_angular-demo_2014/examples/03-a-directive/index.html",
+		"/Users/robbertsegers/Desktop/District01/AngularTuts/development/js/angular-route.js",
+		"/Users/robbertsegers/Desktop/District01/AngularTuts/greeting.html",
+		"/Users/robbertsegers/Desktop/District01/Angular tuts/gulpfile.js",
+		"/Users/robbertsegers/Desktop/District01/AngularTuts/package.json",
+		"/Users/robbertsegers/Desktop/District01/district01_franchise-robbert_2015/development/css/mobile.css",
+		"/Users/robbertsegers/Desktop/District01/district01_franchise-robbert_2015/development/css/mobilemenu.css",
+		"/Users/robbertsegers/Desktop/District01/district01_franchise-robbert_2015/development/menu.html",
+		"/Users/robbertsegers/Desktop/District01/district01_franchise-robbert_2015/development/route.html",
+		"/Users/robbertsegers/Desktop/District01/district01_franchise-robbert_2015/development/js/gmaps.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/robbertsegers/Desktop/District01/MEAN/NorthWindNode",
+			"/Users/robbertsegers/Desktop/District01/Premium_Meat/development/js/controllers",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"object",
+			"Categ",
+			"categor",
+			"55a65015854560cf8aaf70f6",
+			"55a4c8481443f2143a8e7f94",
+			"55a4c86d1443f2143a8e7f95",
+			"catego",
+			"section",
+			"COLORS",
+			"lastfoot",
+			"$cookieStore",
+			"console.log",
+			"cook",
+			"cookieSto",
+			"f5f5",
+			"panel-heading",
+			"getco",
+			"footer",
+			"locatieimgsq",
+			"div.col",
+			"list",
+			"nav",
+			"wrap",
+			"menu",
+			"wrap",
+			"top",
+			"collapse",
+			"list",
+			"sect",
+			"<link rel=\"stylesheet\" href=\"css/screen.css\">",
+			"detail",
+			"wrap",
+			"full-width",
+			"copy",
+			"wrap",
+			"up",
+			"logo",
+			"ini",
+			"}",
+			"up",
+			"text content",
+			"absol",
+			"flexsl",
+			"post",
+			"banner",
+			"flexslider",
+			".flex-control-nav",
+			"symf",
+			"cred",
+			"media",
+			"cred",
+			"h1",
+			"font",
+			"opac",
+			"wiki",
+			"600",
+			"keyup",
+			"header",
+			"browse packages",
+			"memory_limit",
+			"php_value memory_limit",
+			"events",
+			"action",
+			"img",
+			"top-bar"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/routes/todo.server.routes.js",
+					"settings":
+					{
+						"buffer_size": 347,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								298,
+								298
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/controllers/todo.server.controller.js",
+					"settings":
+					{
+						"buffer_size": 2548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								203,
+								203
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/modules/todos/config/todos.client.routes.js",
+					"settings":
+					{
+						"buffer_size": 767,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								144,
+								144
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/modules/todos/controllers/todos.client.controller.js",
+					"settings":
+					{
+						"buffer_size": 2395,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1500,
+								1500
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 851.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "public/modules/todos/views/view-todo.client.view.html",
+					"settings":
+					{
+						"buffer_size": 526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								399,
+								399
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "public/modules/todos/views/edit-todo.client.view.html",
+					"settings":
+					{
+						"buffer_size": 1327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								307,
+								307
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 9.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.617031398668,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"langu",
+				"view/language.html"
+			],
+			[
+				"",
+				"PremiumMeat.sublime-project"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true
+}

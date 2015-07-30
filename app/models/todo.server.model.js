@@ -3,10 +3,10 @@
 var mongoose = require('mongoose'),
 	Schema = mongoose.Schema;
 
-var tags = new Schema({
-	name: String,
-	color: String
-});
+//var tags = new Schema();
+
+//LIST
+//stackoverflow.com/questions/13026486/how-to-populate-a-sub-document-in-mongoose-after-creating-it
 
 var TodoSchema = new Schema({
     created: {
@@ -31,11 +31,10 @@ var TodoSchema = new Schema({
     	trim: true,
     	unique: false
     },
-    tags: [tags],
+    tags: [],
     weight: Number,
     starred: Boolean,
     done: Boolean
-
 });
 
 var list = new Schema({
@@ -45,6 +44,6 @@ var list = new Schema({
 });
 
 //exposing the model to other objects (similar to a 'public' setter)
-mongoose.model('TodoTags', tags);
+//mongoose.model('TodoTags', tags);
 mongoose.model('Todo', TodoSchema);
 mongoose.model('TodoList', list);

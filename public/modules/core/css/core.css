@@ -13,3 +13,51 @@
 .ng-valid.ng-dirty {
 	border-color: #78FA89;
 }
+
+.glyphicon-home{color: #F44336 !important;}
+.glyphicon-user{color:#536DFE !important;}
+.glyphicon-file{color:#4CAF50 !important;}
+.glyphicon-asterisk{color:#FF9800 !important;}
+
+h2{
+	font-size: 32px;
+	color: rgb(70,70,70);
+}
+
+.col-md-1 > li{margin-top: 40px;}
+time{
+	display: inline-block;
+	margin-top: 20px;
+	font-size: 18px;
+}
+div.ta-editor, .ta-text
+	{height: 200px !important;}
+div.ta-bind{
+	height: 185px;
+	overflow: hidden;
+}
+
+p.description{
+	line-height: 165%;
+}
+p.description:hover{
+	text-decoration: none;
+}
+input#ta-hidden-input{display: none;}
+ul.taglist{
+	list-style: none;
+	text-decoration: none;
+	display: inline-block;
+}
+li.tagitem{
+	margin-left: 3px;
+	display: inline-block;
+}
+a.taglink{color: #00796B;}
+a.taglink:hover{}
+
+i.emptysearch{
+	position: absolute;
+	right: 85px;
+	top: 233px;
+}

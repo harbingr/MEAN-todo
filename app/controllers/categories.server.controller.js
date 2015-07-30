@@ -1,7 +1,5 @@
 'use strict';
 
-    // TEST ID = 55a3b0b398e8f5ce66c776ae
-
 /**
  * Module dependencies.
  */
@@ -10,12 +8,9 @@ var mongoose = require('mongoose'),
     Category = mongoose.model('Category'),
     _ = require('lodash');
 
-/**
- * Create a Category
- */
+/**Create a Category*/
 exports.create = function(req, res) {
     var category = new Category(req.body);
-
     category.save(function(err) {
         if (err) {
             return res.status(400).send({
@@ -27,52 +22,7 @@ exports.create = function(req, res) {
     });
 };
 
-/**
- * Show the current Category
- */
-exports.read = function(req, res) {
-    res.json(req.category);
-};
-
-/**
- * Update a Category
- */
-exports.update = function(req, res) {
-    var category = req.category;
-
-    category = _.extend(category, req.body);
-
-    category.save(function(err) {
-        if (err) {
-            return res.status(400).send({
-                message: errorHandler.getErrorMessage(err)
-            });
-        } else {
-            res.json(category);
-        }
-    });
-};
-
-/**
- * Delete an Category
- */
-exports.delete = function(req, res) {
-    var category = req.category;
-
-    category.remove(function(err) {
-        if (err) {
-            return res.status(400).send({
-                message: errorHandler.getErrorMessage(err)
-            });
-        } else {
-            res.json(category);
-        }
-    });
-};
-
-/**
- * List of Categories
- */
+/**List of Categories*/
 exports.list = function(req, res) {
     Category.find().sort('name').exec(function(err, categories) {
         if (err) {
@@ -85,9 +35,41 @@ exports.list = function(req, res) {
     });
 };
 
-/**
- * Category middleware
- */
+/**Show the current Category*/
+exports.read = function(req, res) {
+    res.json(req.category);
+};
+
+/**Update a Category*/
+exports.update = function(req, res) {
+    var category = req.category;
+    category = _.extend(category, req.body);
+    category.save(function(err) {
+        if (err) {
+            return res.status(400).send({
+                message: errorHandler.getErrorMessage(err)
+            });
+        } else {
+            res.json(category);
+        }
+    });
+};
+
+/**Delete a Category*/
+exports.delete = function(req, res) {
+    var category = req.category;
+    category.remove(function(err) {
+        if (err) {
+            return res.status(400).send({
+                message: errorHandler.getErrorMessage(err)
+            });
+        } else {
+            res.json(category);
+        }
+    });
+};
+
+/**Category middleware*/
 exports.categoryByID = function(req, res, next, id) {
 
     if (!mongoose.Types.ObjectId.isValid(id)) {

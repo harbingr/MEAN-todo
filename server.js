@@ -11,6 +11,7 @@ var init = require('./config/init')(),
  * Main application entry file.
  * Please note that the order of loading is important.
  */
+process.env.NODE_ENV = 'production';
 
 // Bootstrap db connection
 var db = mongoose.connect(config.db, function(err) {

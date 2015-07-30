@@ -1,12 +1,72 @@
 <section data-ng-controller="TodosController" data-ng-init="find()">
     <div class="page-header">
-        <h1>Todos</h1>
+        <h1>D01Do <a href="/#!/todos/create"><span class="glyphicon glyphicon-plus pull-right"></a></span></h1>
+        <h4>Never forget with this full-stack <b><span style="color: #009688;">totally awesome</span></b> todo app by <b>District01</b>.</h4>
+        <h5>Click to sort. Customize & prioritize. Get things done.</h5>
     </div>
     <div class="list-group">
-        <a data-ng-repeat="todo in todos" data-ng-href="#!/todos/{{todo._id}}" class="list-group-item">
-            <h4 class="list-group-item-heading" data-ng-bind="todo.name"></h4>
-            <span data-ng-bind="todo.description"></span>
-        </a>
+            <input type="text" ng-model="search" typeahead="todo as todo.name for todo in todos | filter:$viewValue | limitTo:8" class="form-control" typeahead-on-select="todoSearch($item)" placeholder="Search Todos..." >
+    </div>
+            <i class="glyphicon glyphicon-remove-sign emptysearch" ng-show="search" ng-click="search='' "></i>
+    <p style="visibility:hidden;">--</p>
+    <!--  sorting not visible  -->
+    <div class="list-group hidden"  style="background-color: rgb(245, 243, 247); height:40px;">
+            <div class="col-md-1">
+                <a href=""><h5 ng-click="sortToggle('category')">Type <i ng-class="sortby=='category' ? 'glyphicon glyphicon-chevron-down' : 'glyphicon glyphicon-chevron-up'"></i></h5 ng-click="sortToggle != sortToggle"></a>
+            </div>
+            <div class="col-md-7">
+                <a href=""><h5 ng-click="sortToggle('n')">Name  <i></i></h5 ng-click="sortToggle != sortToggle">
+                </a>
+            </div>
+            <div class="col-md-1">
+                <a href=""><h5 ng-click="sortToggle('weight')">Weight  <i ng-class="sortby=='weight' ? 'glyphicon glyphicon-chevron-down' : 'glyphicon glyphicon-chevron-up'"></i></h5 ng-click="sortToggle != sortToggle"></a>
+            </div>
+            <div class="col-md-2">
+                <a href=""><h5 ng-click="sortToggle('created')">Created  <i ng-class="sortby=='created' ? 'glyphicon glyphicon-chevron-down' : 'glyphicon glyphicon-chevron-up'"></i></h5 ng-click="sortToggle != sortToggle"></a>
+            </div>
+    </div>
+
+    <div class="list-group" style="margin-top:-20px;">
+        <div data-ng-repeat="todo in todos | filter: search | orderBy: sortby " class="list-group-item"  style="height:120px;">
+            <div style="height:60px;">
+                <div class="col-md-1"><h1 style="margin:25px 15px;; color:#37474F;";>
+                    <i ng-class=
+                    "todo.category=='work' ? 'glyphicon glyphicon-file '
+                    : (todo.category=='practical' ? 'glyphicon glyphicon-user'
+                    : (todo.category=='home' ? 'glyphicon glyphicon-home'
+                    : 'glyphicon glyphicon-asterisk'))"
+                    ng-click="sortToggle('category')"></i></h1></div>
+                <div class="col-md-7">
+                    <a data-ng-href="#!/todos/{{todo._id}}" style="color:black;">
+                        <h3  style="display:inline-block;" class="list-group-item-heading">{{todo.name}}</h3>
+                    </a>
+                        <ul ng-repeat="tag in todo.tags" ng-show='todo.tags' style="margin-left:5px; color:#00796B; display:inline-block; font-size:10px;"><i class="glyphicon glyphicon-tags taglist"></i>
+                            <li class="tagitem"><a href="" class="taglink" ng-click="tagsearch(tag)">{{tag}}</a>&nbsp;</li>
+                        </ul>
+                    <a data-ng-href="#!/todos/{{todo._id}}" style="color:black;">
+                        <p class="text-muted description" ng-bind-html="todo.description | limitTo: 200"></p>
+                    </a>
+                </div>
+                <div class="col-md-1">
+                        <li class="glyphicon glyphicon-star" ng-repeat="s in weightrange(todo.weight)" ng-click="sortToggle('weight')" style="color: #FBC02D;"></li>
+                </div>
+                <div class="col-md-2">
+                    <time ng-click="sortToggle('created')" >{{todo.created | date : 'medium' }}</time>
+                </div>
+            </div>
+            </a>
+
+                <div class="btn-group-vertical" role="group" style="float:right; margin-top:-60px;">
+                    <a class="btn btn-info" href="/#!/todos/{{todo._id}}/edit" style="padding:15px 15px; margin:px;">
+                        <i class="glyphicon glyphicon-pencil"></i>
+                    </a>
+                    <a class="btn btn-danger" data-ng-click="remove();" style="padding:15px 25px;">
+                        <i class="glyphicon glyphicon-trash"></i>
+                    </a>
+                </div>
+
+        </div>
+
     </div>
     <div class="alert alert-warning text-center" data-ng-hide="!todos.$resolved || todos.length">
         No todos yet, why don't you <a href="/#!/todos/create">create one</a>?

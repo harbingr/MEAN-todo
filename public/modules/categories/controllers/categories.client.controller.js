@@ -32,6 +32,29 @@ angular.module('categories').controller('CategoriesController', ['$scope', '$sta
             });
         };
 
+        // Find a list of Categories
+        $scope.find = function() {
+            $scope.categories = Categories.query();
+        };
+
+        // Find existing Category
+        $scope.findOne = function() {
+            $scope.category = Categories.get({
+                categoryId: $stateParams.categoryId
+            });
+        };
+
+        // Update existing Category
+        $scope.update = function() {
+            var category = $scope.category;
+
+            category.$update(function() {
+                $location.path('categories/' + category._id);
+            }, function(errorResponse) {
+                $scope.error = errorResponse.data.message;
+            });
+        };
+
         // Remove existing Category
         $scope.remove = function(category) {
             if ( category ) {
@@ -49,32 +72,10 @@ angular.module('categories').controller('CategoriesController', ['$scope', '$sta
             }
         };
 
-        // Update existing Category
-        $scope.update = function() {
-            var category = $scope.category;
-
-            category.$update(function() {
-                $location.path('categories/' + category._id);
-            }, function(errorResponse) {
-                $scope.error = errorResponse.data.message;
-            });
-        };
-
-        // Find a list of Categories
-        $scope.find = function() {
-            $scope.categories = Categories.query();
-        };
-
-        // Find existing Category
-        $scope.findOne = function() {
-            $scope.category = Categories.get({
-                categoryId: $stateParams.categoryId
-            });
-        };
-
         // Search for a category
         $scope.categorySearch = function(product) {
             $location.path('categories/' + product._id);
         };
+
     }
 ]);

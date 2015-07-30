@@ -8,9 +8,12 @@ module.exports = function(app) {
 		.get(todos.list)
 		.post(todos.create);
 
-	// the categoryId param is added to the params object for the request
+	// the todoId param is added to the params object for the request
 	app.route('/todos/:todoId')
 		.get(todos.read)
 		.put(todos.update)
 		.delete(todos.delete);
+
+	// Finish by binding the article middlewaree
+	app.param('todoId', todos.todoByID);
 };

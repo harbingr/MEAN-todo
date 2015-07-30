@@ -3,7 +3,7 @@
 module.exports = {
 	db: 'mongodb://localhost/northwind-dev',
 	app: {
-		title: 'NorthWind - Development Environment'
+		title: 'D01Do - District01 Todo app'
 	},
 	facebook: {
 		clientID: process.env.FACEBOOK_ID || 'APP_ID',

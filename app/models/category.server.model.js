@@ -1,24 +1,15 @@
 'use strict';
 
-    // TEST ID = 55a3b0b398e8f5ce66c776ae
-
-/**
- * Module dependencies.
- */
+/**Module dependencies.*/
 var mongoose = require('mongoose'),
     Schema = mongoose.Schema;
 
-/**
- * Validation
- */
+/**Validation*/
 function validateLength (v) {
-  // a custom validation function for checking string length
   return v.length <= 15;
 }
 
-/**
- * Category Schema
- */
+/**Category Schema*/
 var CategorySchema = new Schema({
     created: {          // the property name
         type: Date,     // types are defined e.g. String, Date, Number - http://mongoosejs.com/docs/guide.html

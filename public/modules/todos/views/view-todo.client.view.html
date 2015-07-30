@@ -1,0 +1,28 @@
+<section data-ng-controller="TodosController" data-ng-init="findOne()">
+	<div class="page-header">
+		<h4><a href="/#!/todos"><i class="glyphicon glyphicon-chevron-left"></i>View </a><a href="/#!/todos/create" style="float: right">Create &nbsp;<span class="glyphicon glyphicon-plus" ></a></span></h4>
+		<div style="float:left;">
+			<h1 data-ng-bind="todo.name"></h1>
+			<h2>{{todo.category}}</h2>
+		</div>
+		<div style="float:right; margin-top:15px;">
+			<h4 data-ng-bind="todo.created | limitTo: 19" ></h4>
+			<h3><li class="glyphicon glyphicon-star" ng-repeat="s in weightrange(todo.weight)" style="color: #FBC02D;"></li></h3>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+
+		<p ng-bind-html="todo.description" style="color: rgb(100,100,100);"></p>
+		<ul class="taglist">
+			<li ng-repeat="tag in todo.tags">{{tag}}</li>
+		</ul>
+	</div>
+                <div class="btn-group" role="group" style="float:right; margin-top:40px;">
+                    <a class="btn btn-info" href="/#!/todos/{{todo._id}}/edit" style="padding:15px 25px; margin:px;">
+                        <i class="glyphicon glyphicon-pencil"></i>
+                    </a>
+                    <a class="btn btn-danger" data-ng-click="remove();" style="padding:15px 25px;">
+                        <i class="glyphicon glyphicon-trash"></i>
+                    </a>
+                </div>
+</section>
